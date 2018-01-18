@@ -1,0 +1,32 @@
+
+
+adding: 0 1rem;
+}
+
+.section {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+
+.transition {
+  height: 20vh;
+}
+
+.transition-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#037ed2), to(#0ca2bb));
+  background: linear-gradient(#037ed2, #0ca2bb);
+}
+
+.transition-2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#0ca2bb), to(#037ed2));
+  background: linear-gradient(#0ca2bb, #037ed2);
+}
